@@ -23,3 +23,30 @@ Static block:
 
 static Method:
            first static method no need to call with object we can directly call with class static will acts as instance an object.
+//Examples
+int age;String name,bool passedout,float marks
+long ERp
+void setAge(int age1){
+   this.age = age1;
+}
+
+int getAge(){
+      return age;
+}
+//Example
+class main{
+public static void main(string args[]{
+ person obj = new Person();
+ obj.setAge(24);
+ int res = obj.getAge();
+ system.out.println(res);
+   }
+}
+class person{
+  int age;
+ void setAge(int age1){
+  this.age = age1;
+}
+int getAge{
+   return age;
+}
