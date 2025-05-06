@@ -1,0 +1,25 @@
+Static block and construction
+construct are use to initialise the objects.for every class there will be a default construction when ever you create an object construction will be fault the obect will be create and better properties
+ constructor for having class name and better properties
+
+example
+static block:
+      public class q2 {
+      public static void main(string[]args){
+     Demo d1 = new Demo();
+     Demo d2 = new Demo();
+}
+}
+class Demo {
+  static {
+    system.out.println("static Block");
+}
+
+Demo() {
+  system.out.println("contructor");
+}
+Static block:
+         stack block will be a create we just static key word.it will call aotomatically no need to call with either class or object
+
+static Method:
+           first static method no need to call with object we can directly call with class static will acts as instance an object.
